@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="css/estilox.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="js/clase.js"></script>
+    <script defer src="js/index.js"></script>
+</head>
+
+<body>
+    <h1>Compra tu automovil<h1>
+            <div class="panel-desgloce">
+                <h2>Calcula es valor de tu proximo vehiculo</h2>
+                <p>Para saber el precio de tu vehiculo, por favor, proporciona la siguiente información: </p>
+
+                <label for="modeloFull">Elige el modelo</label>
+                <select id="modeloFull">
+                    <option disabled selected></option>
+                </select>
+
+                <label for="modeloOKM">¿Buscas auto nuevo o usado?</label>
+                <select id="modeloOKM">
+                    <option disabled selected></option>
+                </select>
+
+                <label for="mesElegido">¿En que mes vas a comprar el auto?</label>
+                <select id="mesElegido">
+                    <option disabled selected></option>
+                </select>
+
+                <label for="pagoContado">¿Como vas a pagar?</label>
+                <select id="pagoContado">
+                    <option disabled selected></option>
+                </select>
+                <label for="plazoPago">¿En cuántos cuotas vas a pagar?</label>
+                <input type="number" id="plazoPago" placeholder="Ingresa el plazo en meses" value="12" min="12" max="96"
+                    step="12" required>
+
+                <button class="button-calcular" type="button">Calcular</button>
+                <p class="texto-verde"></p>
+            </div>
+            <div class="panel-cotizacion ocultar-panel">
+                <h2>Compra tu vehiculo nuevo o usado</h2>
+                <p>A continuación encontraras las opciones par adquirir tu auto. Si deseas comprarlo <strong>haz
+                        clic</strong> en el botón <strong>COMPRAR</strong>.</p>
+
+                <p>Mes que vamos a comprar el auto: <span class="label-mes">Febrero </span><strong></strong></p>
+                <p>Modelo elegido: <span class="label-modelo">$ 3.000.000</span></p>
+                <p>Kilometrage elegido: <span class="label-kilometro">0KM</span></p>
+                <p>Forma de pago: <span class="label-descuento">300000</span></p>
+                <p>Cuotas: <span class="label-plazo"></span>12 <strong>meses</strong></p>
+
+                <br>
+                <h3>Desgloce de cuotas</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Cuota</th>
+                            <th>Vencimiento</th>
+                            <th>Costo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Día 7 de cada mes</td>
+                            <td class="texto-derecha">151.000,00</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td>Total a devolver</td>
+                            <td id="montoMasInteres" class="texto-derecha">$ 2.145.588,99</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <div class="centrar-elementos">
+                    <button class="button-contratar" type="button">Comprar</button>
+                </div>
+            </div>
+</body>
+
+</html>

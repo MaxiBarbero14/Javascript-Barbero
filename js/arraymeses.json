@@ -1,0 +1,117 @@
+[
+  {
+    "numero": 1,
+    "mesde": "Enero",
+    "inflacion": 1.06
+  },
+  {
+    "numero": 2,
+    "mesde": "Febrero",
+    "inflacion": 1.126
+  },
+  {
+    "numero": 3,
+    "mesde": "Marzo",
+    "inflacion": 1.203
+  },
+  {
+    "numero": 4,
+    "mesde": "Abril",
+    "inflacion": 1.287
+  },
+  {
+    "numero": 5,
+    "mesde": "Mayo",
+    "inflacion": 1.365
+  },
+  {
+    "numero": 6,
+    "mesde": "Junio",
+    "inflacion": 1.425
+  },
+  {
+    "numero": 7,
+    "mesde": "Julio",
+    "inflacion": 1.488
+  },
+  {
+    "numero": 8,
+    "mesde": "Agosto",
+    "inflacion": 1.612
+  },
+  {
+    "numero": 9,
+    "mesde": "Septiembre",
+    "inflacion": 1.739
+  },
+  {
+    "numero": 10,
+    "mesde": "Octubre",
+    "inflacion": 1.868
+  },
+  {
+    "numero": 11,
+    "mesde": "Noviembre",
+    "inflacion": 1.1013
+  },
+  {
+    "numero": 12,
+    "mesde": "Diciembre",
+    "inflacion": 1.1166
+  },
+  {
+    "id": 1,
+    "modelo": "Sandero base",
+    "precio": 3000000
+  },
+  {
+    "id": 2,
+    "modelo": "Sandero gama media",
+    "precio": 4000000
+  },
+  {
+    "id": 1,
+    "modelo": "Sandero full",
+    "precio": 5000000
+  },
+  {
+    "identificador": 1,
+    "fecha": "OKM 2023",
+    "aumento": 1.203
+  },
+  {
+    "identificador": 2,
+    "fecha": "Usado 2022",
+    "aumento": 1.19
+  },
+  {
+    "identificador": 3,
+    "fecha": "Usado 2021",
+    "aumento": 1.175
+  },
+  {
+    "identificador": 4,
+    "fecha": "Usado 2020",
+    "aumento": 1.14
+  },
+  {
+    "detalle": 1,
+    "pago": "Pago en 12 cuotas",
+    "descuento": 300000
+  },
+  {
+    "detalle": 2,
+    "pago": "Pago en 24 cuotas",
+    "descuento": 200000
+  },
+  {
+    "detalle": 3,
+    "pago": "Pago en 36 cuotas",
+    "descuento": 100000
+  },
+  {
+    "detalle": 4,
+    "pago": "Pago en 48 cuotas o mas",
+    "descuento": 0
+  }
+]

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2em;
+    color: darkblue;
+}
+
+label {
+    color: darkred;
+}
+
+select {
+    color: crimson;
+}
+
+input {
+    color: crimson;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.texto-verde {
+    color: green;
+    font-size: medium;
+    font-style: italic;
+}
+
+.panel-cotizacion {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.panel-desgloce {
+    max-width: 480px;
+    margin: 0 auto;
+
+}
+
+.centrar-elementos {
+    text-align: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, button, select {
+    font-size: large;
+    margin-top: 5px;
+    padding: 8px;
+}
+
+button {
+    margin-top: 5px;
+    padding: 5px;
+    font-size: larger;
+    font-weight: 8000;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: aquamarine;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+table {
+
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: none;
+}
+
+th {
+    font-size: larger;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+tfoot {
+    font-size: larger;
+    font-weight: 700;
+}
+tfoot td {
+    background-color: lightblue !important;
+}
+
+.texto-derecha {
+    text-align: right !important;
+}
+
+.label-monto {
+    font-weight: 700;
+    font-size: larger;
+}
+
+.label-destino {
+    font-weight: 500;
+    font-size: larger;
+}
+
+.label-intereses {
+    font-weight: 700;
+    font-size: larger;
+}
+
+.label-plazo {
+    font-weight: 700;
+    font-size: larger;
+}
+
+.ocultar-panel {
+    display: none;
+}
